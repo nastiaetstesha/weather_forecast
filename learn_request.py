@@ -2,7 +2,7 @@ import requests
 from urllib.parse import urlencode
 
 
-cities = ['london', 'svo', 'череповец']
+cities = ['Лондон', 'Аэропорт шереметьево', 'Череповец']
 
 def get_url():
     for city in cities:
